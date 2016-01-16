@@ -1,0 +1,12 @@
+development:
+  adapter:   sqlite3
+  database:  db/development
+
+product:
+  adapter: mysql2
+  database: bfsec
+  host: localhost
+  username: root
+  password: ^Thcruby&bigf4ce$
+  encoding: utf8
+  pool: 5
